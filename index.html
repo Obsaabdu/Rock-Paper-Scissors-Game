@@ -8,11 +8,17 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1>
-    <p>What is your choice:</p>
-    <input type="text"  id="userInput">
-    <button onclick="theGame()">click</button>
-    <div id="comp"></div>
-    <div id="result"></div>
+    <div class="container">
+        <div class="playfield">
+            <div><img class="computerchoice" src="images/rock.png" alt="rock hand"></div>
+            <div><img class="userchoice" src="images/rock.png" alt="rock hand"></div>
+        </div>
+        <div class="result">Let's Play!!</div>
+        <div class="choices">
+            <div class="choice" onclick="play('rock')"><img src="images/rock.png" alt="rock hand"><br>Rock</div>
+            <div class="choice" onclick="play('paper')"><img src="images/paper.png" alt="paper hand"><br>Paper</div>
+            <div class="choice" onclick="play('scissors')"><img src="images/scissors.png" alt="scissors hand"><br> Scissors</div>
+    
+    </div>
 </body>
 </html>
