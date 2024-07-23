@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         result.textContent = "You Win!!";
       } 
-    } else {
+    } else if(userChoice === "scissors") {
       if (computerChoice === "rock") {
         result.textContent = "CPU Won!!";
       } else {
